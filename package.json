@@ -49,6 +49,7 @@
     "react-router-dom": "^5.3.0",
     "react-scripts": "^4.0.3",
     "react-slick": "^0.28.1",
+    "react-toastify": "^8.2.0",
     "recharts": "^2.1.9",
     "redux-logger": "^3.0.6",
     "source-map-explorer": "^2.5.2",
