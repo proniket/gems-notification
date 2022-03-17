@@ -1,0 +1,111 @@
+.creatorSliderCard {
+  width: 24.3rem;
+  height: 31.8rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-gap: 0.898rem;
+
+  position: relative;
+
+  &__headingSection {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.239rem;
+    position: absolute;
+    max-width: 20rem;
+    padding-top: 1.3rem;
+    &--likes {
+      display: flex;
+      align-items: center;
+      p {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        color: #808080;
+        margin: 0;
+        padding-left: 0.772rem;
+      }
+    }
+  }
+  &__imageSection {
+    @include center;
+    flex-direction: column;
+    background-color: #16151a;
+
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 2rem;
+
+    width: 23.777rem;
+    height: 24.467rem;
+
+    p {
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+      color: #6e757c;
+      margin: 0;
+      padding-top: 1.65rem;
+    }
+  }
+  &__infoSection {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+
+    border-radius: 2rem;
+    background: #181721;
+    &--container {
+      margin: 0 auto;
+      height: 6.435rem;
+      max-width: 19.721rem;
+      width: 100%;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      &--nameDiv {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        border-bottom: 1px solid #60666b;
+        padding-bottom: 0.4rem;
+        span {
+          font-size: 1.2rem;
+          line-height: 1.5rem;
+          display: flex;
+          align-items: center;
+
+          color: #ffffff;
+        }
+        p {
+          font-size: 1.6rem;
+          line-height: 2rem;
+          margin: 0;
+
+          font-family: "Roboto";
+          font-size: 1.3rem;
+          line-height: 1.5rem;
+
+          color: #ffcf53;
+        }
+      }
+
+      > p {
+        margin: 0;
+        padding-top: 0.4rem;
+        font-size: 0.9rem;
+        line-height: 1.1rem;
+
+        color: #ffffff;
+
+        font-style: normal;
+        font-weight: 100;
+      }
+    }
+  }
+}

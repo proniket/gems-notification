@@ -1,0 +1,41 @@
+@import "components/components.scss";
+@import "./layout/layout.scss";
+//header
+@import "./layout/header/header.scss";
+@import "./layout/header/headerMobileMenu.scss";
+
+@import "./layout/footer.scss";
+@import "./utils/mixin.scss";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+
+* {
+  font-family: "Montserrat";
+  button {
+    cursor: pointer;
+  }
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+html {
+  font-size: 62.5%;
+}
